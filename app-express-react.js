@@ -2,8 +2,9 @@
 const express = require('express');
 const app = express();
 const colors = require('colors');
+require('dotenv').config();
 
-const port = 8081;
+const port = process.env.PORT;
 
 console.log('Inicia Programa Express');
 
