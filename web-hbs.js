@@ -9,7 +9,7 @@ const hbs = require('hbs');
 
 hbs.registerPartials(__dirname + '/views/partials', function (err) {if(err) console.log(err)});
 
-const port = process.env.HTTP_PORT;
+const port = process.env.PORT;
 
 console.log('Inicia Programa Express');
 
